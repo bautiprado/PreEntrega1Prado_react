@@ -7,7 +7,7 @@ function App() {
     return (
       <>
         <Navbar />
-        <ItemListContainer greeting={"Bienvenidos a Seven Only Fútbol"} />
+        <ItemListContainer greeting={"Indumentaria"} />
       </>
     );
 }

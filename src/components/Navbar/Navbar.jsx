@@ -1,8 +1,10 @@
+import React from 'react';
 import './navBarStyled.css';
 import CartWidget from '../CartWidget/CartWidget';
 
 function Navbar() {
     return (
+        <>
         <nav className="navbar navbar-expand-sm navbar-dark">
         <div className="container-fluid">
         <a className="navbar-brand" href="#">
@@ -50,6 +52,11 @@ function Navbar() {
         <CartWidget number={7} />
         </div>
     </nav>
+      {/* <Jumbotron /> */}
+    <div className="jumbotron p-5 rounded">
+        <h1><a href="pages/extra50offsale.html" target="_self">50% OFF SALE</a></h1>
+    </div>
+    </>
     );
 }
 
