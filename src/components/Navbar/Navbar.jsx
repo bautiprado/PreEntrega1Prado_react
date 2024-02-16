@@ -1,6 +1,7 @@
 import React from 'react';
 import './navBarStyled.css';
 import CartWidget from '../CartWidget/CartWidget';
+import {Link} from 'react-router-dom';
 
 function Navbar() {
     return (
@@ -8,7 +9,9 @@ function Navbar() {
         <nav className="navbar navbar-expand-sm navbar-dark">
         <div className="container-fluid">
         <a className="navbar-brand" href="#">
+        <Link to="/category/indumentaria">
         <img src="/img/logo7.png" alt="7" className="img-fluid" id="logo" />
+        </Link>
         </a>
         <button
             className="navbar-toggler"
@@ -20,29 +23,29 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="collapsibleNavbar">
             <ul className="navbar-nav">
             <li className="nav-item">
-                <a className="nav-link" href="pages/indumentaria.html" target="_self">
+                <Link className="nav-link" to="/category/indumentaria" target="_self">
                 Indumentaria
-                </a>
+                </Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="pages/selecciones.html" target="_self">
+                <Link className="nav-link" to="/category/selecciones" target="_self">
                 Selecciones
-                </a>
+                </Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="pages/ofertas.html" target="_self">
+                <Link className="nav-link" to="/category/ofertas" target="_self">
                 Ofertas
-                </a>
+                </Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="pages/novedadesydestacados.html" target="_self">
+                <Link className="nav-link" to="/category/novedadesydestacados" target="_self">
                 Novedades y destacados
-                </a>
+                </Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="pages/colección.html">
+                <Link className="nav-link" to="/category/colección">
                 Colección
-                </a>
+                </Link>
             </li>
             </ul>
         </div>
@@ -52,9 +55,9 @@ function Navbar() {
         <CartWidget number={7} />
         </div>
     </nav>
-      {/* <Jumbotron /> */}
+        {/* <Jumbotron /> */}
     <div className="jumbotron p-5 rounded">
-        <h1><a href="pages/extra50offsale.html" target="_self">50% OFF SALE</a></h1>
+        <h1><Link to="/category/extra50offsale" target="_self">EXTRA 50% OFF SALE</Link></h1>
     </div>
     </>
     );

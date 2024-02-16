@@ -1,0 +1,10 @@
+.containerSpinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; 
+}
+
+.ring-loader {
+    color: #36d7b7;
+}

@@ -1,0 +1,31 @@
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.counter p {
+    margin: 0px; /* Espacio entre el valor y los botones*/
+    color: black;
+}
+
+.counter button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+    margin: 5px;
+}
+
+.counter button:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el ratón por encima */
+}
+
+.counter button:active {
+    background-color: #0056b3; /* Color de fondo del botón al hacer clic */
+    transform: translateY(2px); /* Efecto de desplazamiento hacia abajo al hacer clic */
+}

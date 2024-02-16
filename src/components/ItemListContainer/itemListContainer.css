@@ -1,28 +1,32 @@
 h2{
-    background-image: linear-gradient(to top, #091e47, #0b224e, #0c2755, #0e2b5c, #0f3063, #0a3466, #053768, #013b6b, #003e69, #004066, #024262, #0c445f);
     color: rgb(232, 139, 17) !important;
     text-transform: uppercase;
     padding: 20px;
     margin: 0;
     text-decoration: underline;
-} ø
+}
 
 .card-body{
     background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
 }
 
-.banner{
-    background-image: linear-gradient(to top, #091e47, #0b224e, #0c2755, #0e2b5c, #0f3063, #0a3466, #053768, #013b6b, #003e69, #004066, #024262, #0c445f);
+.banner-section {
+    background-image: linear-gradient(to bottom, #091e47, #0b224e, #0c2755, #0e2b5c, #0f3063, #0a3466, #053768, #013b6b, #003e69, #004066, #024262, #0c445f);
+    margin-bottom: -200px !important;
+}
+
+.banner {
     color: rgb(232, 139, 17);
     text-transform: uppercase;
     padding: 20px;
-    margin: 0;
+    margin-top: -20px;
     text-decoration: underline;
 }
 
 p{
     color: white;
     text-align: center;
+    margin: 20;
 }
 
 .img-fluid{
@@ -30,7 +34,7 @@ p{
 }
 
 section{
-    background-image: linear-gradient(to bottom, #091e47, #0b224e, #0c2755, #0e2b5c, #0f3063, #0a3466, #053768, #013b6b, #003e69,  #004066, #024262, #0c445f);
+    margin-top: 10px;
 }
 
 .original-price{
