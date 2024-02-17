@@ -9,7 +9,7 @@ function App() {
       <>
         <Navbar />
         <Routes>
-          <Route path="/" element={<ItemListContainer greeting={"Indumentaria"} />
+          <Route path="/category/indumentaria" element={<ItemListContainer greeting={"Indumentaria"} />
           }
           />
           <Route path="/category/:categoryId" element={<ItemListContainer/> }/>
