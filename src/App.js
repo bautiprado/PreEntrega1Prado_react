@@ -9,10 +9,10 @@ function App() {
       <>
         <Navbar />
         <Routes>
-          <Route path="/category/indumentaria" element={<ItemListContainer greeting={"Indumentaria"} />
+          <Route path="/" element={<ItemListContainer greeting={"Indumentaria"} />
           }
           />
-          <Route path="/category/:categoryId" element={<ItemListContainer/> }/>
+          <Route path="/category/:indumentaria" element={<ItemListContainer/> }/>
           <Route path="/category/indumentaria" element={<ItemListContainer greeting={"indumentaria"} /> }/>
           <Route path="/category/selecciones" element={<ItemListContainer greeting={"selecciones"} /> }/>
           <Route path="/category/ofertas" element={<ItemListContainer greeting={"ofertas"} />} />
